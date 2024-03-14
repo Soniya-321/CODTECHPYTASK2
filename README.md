@@ -65,6 +65,7 @@ knowledge_base = {
 }
 ```
 
+
 In this section, we import the `random` module to enable random selection of responses. We define two lists, `greetings` and `responses`, to store greeting messages and 
 corresponding responses. Additionally, we create a dictionary `knowledge_base` to store predefined information about various topics such as weather, time, and jokes.
 
@@ -85,6 +86,7 @@ def chat(message):
         return "I am still learning, but I am always happy to chat! Tell me more about yourself."
 ```
 
+
 In this function, we normalize the user input by converting it to lowercase to facilitate case-insensitive matching. We then check if the input contains any greeting words
 from the `greetings` list. If a greeting is detected, the chatbot responds with a random message from the `responses` list. If the input matches a key in the
 `knowledge_base` dictionary, the chatbot retrieves the corresponding value. Otherwise, it returns a default response indicating that it is still learning.
@@ -100,8 +102,8 @@ while True:
     print("Chatbot:", response)
 ```
 
-	In this loop, the chatbot continuously prompts the user for input using the `input()` function. It then prints the user's input, passes it to the `chat()` function to
- generate a response, and finally prints the response from the chatbot.
+	
+ In this loop, the chatbot continuously prompts the user for input using the `input()` function. It then prints the user's input, passes it to the `chat()` function to generate a response, and finally prints the response from the chatbot.
 
 **3. User Interaction and Output:**
 	The user interacts with the chatbot by entering text input, to which the chatbot responds accordingly. Below is an example of a conversation between the user and the
@@ -137,8 +139,9 @@ Chatbot: I can't access real-time weather information, but I can tell you some f
 - Enhancing the user interface to support multi-platform deployment, including web-based interfaces, messaging apps, and voice-enabled assistants.
 
 **6. Acknowledgments:**
-	I would like to express my gratitude to the open-source community for their contributions, support, and valuable insights. Special thanks to the developers of Python,
- libraries such as NLTK and TensorFlow, and platforms like GitHub for fostering collaboration and innovation in the field of artificial intelligence and chatbot development.
+	I would like to express my gratitude to the open-source community for their contributions, support, and valuable insights. Special thanks to the developers of 
+ Python,libraries such as NLTK and TensorFlow, and platforms like GitHub for fostering collaboration and innovation in the field of artificial intelligence and chatbot 
+ development.
 
 
 
